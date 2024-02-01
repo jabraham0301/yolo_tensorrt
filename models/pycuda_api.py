@@ -30,7 +30,7 @@ class TRTEngine:
         self.stream = cuda.Stream(0)
         self.__init_engine()
         self.__init_bindings()
-        self.__warm_up()
+        #self.__warm_up()
 
     def __init_engine(self) -> None:
         logger = trt.Logger(trt.Logger.WARNING)

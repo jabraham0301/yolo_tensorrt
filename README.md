@@ -153,7 +153,7 @@ Please see more information in [`API-Build.md`](docs/API-Build.md)
 
 ## 1. Infer with python script
 
-You can infer images with the engine by [`infer-det.py`](infer-det.py) .
+You can infer images with the engine by [`infer-det.py`](object_tracker.py) .
 
 Usage:
 
